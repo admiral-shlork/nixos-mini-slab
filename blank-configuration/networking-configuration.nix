@@ -5,7 +5,7 @@
     hostName = "mini-slab";
     useDHCP = lib.mkDefault true;
     networkmanager.enable = true;
-    firewall.allowedTCPPorts = [ 80 ];
+    firewall.allowedTCPPorts = [ 80 9000 ];
     firewall.allowedUDPPorts = [ ];
   };
 }
