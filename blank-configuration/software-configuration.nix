@@ -33,7 +33,7 @@
 
   environment.systemPackages = with pkgs; [
     btop
-    docker_29
+    docker
     git
     home-manager
     nh
